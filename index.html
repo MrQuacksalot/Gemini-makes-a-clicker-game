@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Clicker Game</h1>
+
+        <!-- Stats Display -->
+        <div class="stats">
+            <p>Points: <span id="points-display">0</span></p>
+            <p>Points per Click: <span id="ppc-display">1</span></p>
+        </div>
+
+        <!-- Main Clicker Button -->
+        <button id="click-button">Click Me!</button>
+
+        <!-- Upgrades Section -->
+        <div class="upgrades">
+            <h2>Upgrades</h2>
+            <button id="upgrade-ppc-button" class="upgrade-btn">
+                Buy PPC Upgrade (+1 PPC) - Cost: <span id="ppc-cost">10</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
